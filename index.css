@@ -1,0 +1,36 @@
+/*stylesheet */
+.column{
+    width: 50%;
+    float: left;
+    padding: 40px;
+}
+
+.hidden_div{
+    padding: 20px;
+}
+
+.numb{
+    border: solid 1px black;
+    background-color: lightsalmon;
+    text-align:center;
+    font-weight:bold;
+    cursor:pointer;
+    padding: 10px;
+}
+
+body{
+    background: #fe8c00;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #f83600, #fe8c00);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f83600, #fe8c00); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */    
+}
+
+.tablestyle{
+    background-color: lightseagreen;
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+span:hover{
+    color: white;
+}
